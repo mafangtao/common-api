@@ -5,7 +5,7 @@ import (
 	"apiServer/model"
 	"apiServer/pkg/errno"
 	"github.com/gin-gonic/gin"
-	"github.com/lexkong/log"
+	"github.com/mafangtao/log"
 )
 
 // @Summary Add new user to the database  马方韬

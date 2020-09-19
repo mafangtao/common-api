@@ -11,7 +11,7 @@ import (
 	"apiServer/pkg/errno"
 
 	"github.com/gin-gonic/gin"
-	"github.com/lexkong/log"
+	"github.com/mafangtao/log"
 	"github.com/willf/pad"
 )
 

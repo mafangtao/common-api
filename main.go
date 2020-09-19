@@ -16,7 +16,7 @@ import (
 	"apiServer/router/middleware"
 
 	"github.com/gin-gonic/gin"
-	"github.com/lexkong/log"
+	"github.com/mafangtao/log"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 )

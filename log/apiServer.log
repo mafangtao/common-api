@@ -1,0 +1,54 @@
+2020-07-23 01:04:46.344 INFO apiServer/main.go:96 Start to listening the incoming requests on http address: :8080
+2020-07-23 01:04:46.344 INFO apiServer/main.go:91 Start to listening the incoming requests on https address: :8081
+2020-07-23 01:04:46.345 INFO apiServer/main.go:110 Waiting for the router, retry in 1 second.
+2020-07-23 01:04:47.350 INFO apiServer/main.go:83 The router has been deployed successfully.
+2020-07-23 01:07:37.347 INFO apiServer/main.go:91 Start to listening the incoming requests on https address: :8081
+2020-07-23 01:07:37.347 INFO apiServer/main.go:96 Start to listening the incoming requests on http address: :8080
+2020-07-23 01:07:37.348 INFO apiServer/main.go:83 The router has been deployed successfully.
+2020-07-23 01:07:41.521 ERROR middleware/logging.go:76 response body can not unmarshal to model.Response struct, body: `` error: unexpected end of JSON input
+2020-07-23 01:07:41.521 INFO middleware/logging.go:84 70µs          | 127.0.0.1    | POST /v1/user/admin2 | {code: 10001, message: unexpected end of JSON input}
+2020-07-23 01:08:07.102 INFO middleware/logging.go:84 114µs         | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}
+2020-07-23 01:08:23.848 INFO middleware/logging.go:84 97µs          | 127.0.0.1    | POST /v1/user | {code: 20103, message: The token was invalid.}
+2020-07-23 01:55:16.171 INFO apiServer/main.go:96 Start to listening the incoming requests on http address: :8080
+2020-07-23 01:55:16.171 INFO apiServer/main.go:91 Start to listening the incoming requests on https address: :8081
+2020-07-23 01:55:16.172 INFO apiServer/main.go:83 The router has been deployed successfully.
+2020-07-23 01:55:46.802 ERROR middleware/logging.go:76 response body can not unmarshal to model.Response struct, body: `` error: unexpected end of JSON input
+2020-07-23 01:55:46.802 INFO middleware/logging.go:84 90µs          | 127.0.0.1    | POST /v1/user/admin2 | {code: 10001, message: unexpected end of JSON input}
+2020-07-23 01:55:58.687 ERROR middleware/logging.go:76 response body can not unmarshal to model.Response struct, body: `` error: unexpected end of JSON input
+2020-07-23 01:55:58.687 INFO middleware/logging.go:84 64µs          | 127.0.0.1    | POST /v1/user/admin2 | {code: 10001, message: unexpected end of JSON input}
+2020-07-23 01:57:00.734 ERROR middleware/logging.go:76 response body can not unmarshal to model.Response struct, body: `` error: unexpected end of JSON input
+2020-07-23 01:57:00.734 INFO middleware/logging.go:84 67µs          | 127.0.0.1    | POST /v1/user/admin2 | {code: 10001, message: unexpected end of JSON input}
+2020-07-23 01:57:25.715 ERROR middleware/logging.go:76 response body can not unmarshal to model.Response struct, body: `` error: unexpected end of JSON input
+2020-07-23 01:57:25.715 INFO middleware/logging.go:84 60µs          | 127.0.0.1    | POST /v1/user/admin2/desc=test | {code: 10001, message: unexpected end of JSON input}
+2020-07-23 01:57:49.679 INFO middleware/logging.go:84 74.56ms       | 127.0.0.1    | POST /login | {code: 0, message: OK}
+2020-07-23 01:58:05.561 INFO middleware/logging.go:84 108µs         | 127.0.0.1    | POST /v1/user | {code: 20103, message: The token was invalid.}
+2020-07-23 01:58:15.292 INFO user/create.go:20 User Create function called.
+2020-07-23 01:58:15.369 INFO middleware/logging.go:84 76.519ms      | 127.0.0.1    | POST /v1/user | {code: 20002, message: Database error.}
+2020-07-23 01:58:35.528 INFO user/create.go:20 User Create function called.
+2020-07-23 01:58:35.607 INFO middleware/logging.go:84 78.701ms      | 127.0.0.1    | POST /v1/user | {code: 0, message: OK}
+2020-07-23 02:05:22.068 INFO config/config.go:72 Config file changed: /Users/fangtaoma/go/src/apiServer/conf/config.yaml
+2020-07-23 02:05:31.304 INFO user/create.go:20 User Create function called.
+2020-07-23 02:05:31.379 INFO middleware/logging.go:84 74.755ms      | 127.0.0.1    | POST /v1/user | {code: 20002, message: Database error.}
+2020-07-23 02:05:57.593 INFO user/create.go:20 User Create function called.
+2020-07-23 02:05:57.667 INFO middleware/logging.go:84 73.98ms       | 127.0.0.1    | POST /v1/user | {code: 0, message: OK}
+{"level":"INFO","timestamp":"2020-07-23 20:20:01.645","file":"apiServer/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-07-23 20:20:01.645","file":"apiServer/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2020-07-23 20:20:01.647","file":"apiServer/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-07-23 20:56:01.828","file":"apiServer/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-07-23 20:56:01.828","file":"apiServer/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2020-07-23 20:56:01.829","file":"apiServer/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-07-23 20:56:16.638","file":"apiServer/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-07-23 20:56:16.638","file":"apiServer/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2020-07-23 20:56:16.639","file":"apiServer/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-07-23 20:57:55.162","file":"apiServer/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-07-23 20:57:55.162","file":"apiServer/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2020-07-23 20:57:55.163","file":"apiServer/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-07-23 20:58:01.683","file":"user/create.go:20","msg":"User Create function called."}
+{"level":"INFO","timestamp":"2020-07-23 20:58:01.757","file":"middleware/logging.go:84","msg":"74.437ms      | 127.0.0.1    | POST /v1/user | {code: 20002, message: Database error.}"}
+{"level":"INFO","timestamp":"2020-07-23 20:58:16.292","file":"user/create.go:20","msg":"User Create function called."}
+{"level":"INFO","timestamp":"2020-07-23 20:58:16.370","file":"middleware/logging.go:84","msg":"77.597ms      | 127.0.0.1    | POST /v1/user | {code: 0, message: OK}"}
+{"level":"ERROR","timestamp":"2020-08-03 09:52:08.229","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"dial tcp [::1]:3306: connect: connection refused"}}
+{"level":"ERROR","timestamp":"2020-08-03 09:52:08.230","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"dial tcp [::1]:3307: connect: connection refused"}}
+{"level":"INFO","timestamp":"2020-08-03 09:52:08.232","file":"apiServer/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-08-03 09:52:08.232","file":"apiServer/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2020-08-03 09:52:08.234","file":"apiServer/main.go:83","msg":"The router has been deployed successfully."}

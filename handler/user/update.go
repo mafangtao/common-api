@@ -7,7 +7,7 @@ import (
 	"apiServer/model"
 	"apiServer/pkg/errno"
 	"github.com/gin-gonic/gin"
-	"github.com/lexkong/log"
+	"github.com/mafangtao/log"
 )
 
 // @Summary Update a user info by the user identifier

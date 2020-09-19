@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b5b5124-97a6-483e-9e03-bf577b5ce83a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore.swp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiServer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/user/create.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/user/create.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/user/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/user/list.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/user/update.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/user/update.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/apiServer.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/apiServer.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/init.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/init.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/middleware/logging.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/middleware/logging.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

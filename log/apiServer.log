@@ -56,3 +56,10 @@
 {"level":"INFO","timestamp":"2020-09-20 01:04:24.293","file":"apiServer/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
 {"level":"INFO","timestamp":"2020-09-20 01:04:24.294","file":"apiServer/main.go:110","msg":"Waiting for the router, retry in 1 second."}
 {"level":"INFO","timestamp":"2020-09-20 01:04:25.295","file":"apiServer/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 01:18:16.362","file":"apiServer/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 01:18:16.362","file":"apiServer/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2020-09-20 01:18:16.363","file":"apiServer/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 01:19:20.482","file":"model/init.go:50","msg":"InitSelfDB","data":{"mysql":"has started"}}
+{"level":"INFO","timestamp":"2020-09-20 01:19:22.067","file":"apiServer/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 01:19:22.067","file":"apiServer/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2020-09-20 01:19:22.068","file":"apiServer/main.go:83","msg":"The router has been deployed successfully."}

@@ -2,6 +2,7 @@ package model
 
 import (
 	"fmt"
+	"github.com/mafangtao/log/lager"
 
 	"github.com/mafangtao/log"
 	"github.com/spf13/viper"
@@ -46,6 +47,9 @@ func setupDB(db *gorm.DB) {
 
 // used for cli
 func InitSelfDB() *gorm.DB {
+	log.Info("InitSelfDB", lager.Data{
+		"mysql": "has started",
+	})
 	return openDB(viper.GetString("db.username"),
 		viper.GetString("db.password"),
 		viper.GetString("db.addr"),
@@ -69,12 +73,12 @@ func GetDockerDB() *gorm.DB {
 
 func (db *Database) Init() {
 	DB = &Database{
-		Self:   GetSelfDB(),
-		Docker: GetDockerDB(),
+		Self: GetSelfDB(),
+		//Docker: GetDockerDB(),
 	}
 }
 
 func (db *Database) Close() {
 	DB.Self.Close()
-	DB.Docker.Close()
+	//DB.Docker.Close()
 }

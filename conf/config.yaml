@@ -18,13 +18,8 @@ log:
   log_rotate_size: 1
   log_backup_count: 7
 db:
-  name: db_apiserver
-  addr: localhost:3306
-  username: root
+  name: fangtaoma
+  addr: 8.210.252.216:3306
+  username: fangtaoma
   password: Mft@625146672
 
-docker_db:
-  name: db_apiserver
-  addr: localhost:3307
-  username: root
-  password: 123456
